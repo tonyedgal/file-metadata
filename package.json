@@ -1,0 +1,37 @@
+{
+  "name": "file-metadata-microservice",
+  "version": "1.0.0",
+  "description": "A File metadata microservice API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonyedgal/file-metadata.git"
+  },
+  "keywords": [
+    "file-metadata",
+    "node",
+    "express",
+    "microservice",
+    "API",
+    "freecodecamp"
+  ],
+  "author": "Tony Edgal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tonyedgal/file-metadata/issues"
+  },
+  "homepage": "https://github.com/tonyedgal/file-metadata#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "multer": "^1.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
